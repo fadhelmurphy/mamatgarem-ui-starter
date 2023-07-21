@@ -4,6 +4,7 @@
   "hoist": true,
   "stream": true,
   "private": true,
+  "useWorkspaces": true,
   "bootstrap": {
     "npmClientArgs": ["--no-package-lock"]
   },
