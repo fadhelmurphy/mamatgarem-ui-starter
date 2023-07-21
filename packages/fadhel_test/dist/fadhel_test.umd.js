@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define('@fdhl-ui/fadhel_test', factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@fdhl-ui/fadhel_test"] = factory());
+	typeof define === 'function' && define.amd ? define('@mamatgarem-ui/fadhel_test', factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@mamatgarem-ui/fadhel_test"] = factory());
 })(this, (function () { 'use strict';
 
 	function createCommonjsModule(fn, module) {
@@ -2841,7 +2841,7 @@
 	});
 
 	function fadhel_test() {
-	  return /*#__PURE__*/react.createElement(react.Fragment, null, "testing username:fadhel fadhel@femaledaily.com test update");
+	  return /*#__PURE__*/react.createElement(react.Fragment, null, "testing username:fadhel fadhelijlalfalah@gmail.com test update");
 	}
 
 	return fadhel_test;

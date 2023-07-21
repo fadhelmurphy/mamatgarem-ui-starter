@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define('@fdhl-ui/button_test', factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@fdhl-ui/button_test"] = factory());
+	typeof define === 'function' && define.amd ? define('@mamatgarem-ui/button_test', factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@mamatgarem-ui/button_test"] = factory());
 })(this, (function () { 'use strict';
 
 	function createCommonjsModule(fn, module) {
@@ -2841,8 +2841,8 @@
 	});
 
 	function ButtonTest(_ref) {
-	  var text = _ref.text;
-	  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("button", null, text));
+	  var children = _ref.children;
+	  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("button", null, children));
 	}
 
 	return ButtonTest;

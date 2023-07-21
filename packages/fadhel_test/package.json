@@ -1,9 +1,9 @@
 {
-  "name": "@fdhl-ui/fadhel_test",
-  "version": "1.0.1",
+  "name": "@mamatgarem-ui/fadhel_test",
+  "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "Fadhel <fadhel@femaledaily.com>",
-  "homepage": "https://github.com/fadhelmurphy/fadhel-ui-starter#readme",
+  "author": "Fadhel <fadhelijlalfalah@gmail.com>",
+  "homepage": "https://github.com/fadhelmurphy/mamatgarem-ui-starter#readme",
   "license": "ISC",
   "srcFile": "lib",
   "srcName": "fadhel_test",
@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fadhelmurphy/fadhel-ui-starter.git"
+    "url": "git+ssh://git@github.com/fadhelmurphy/mamatgarem-ui-starter.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "browser": true,
   "bugs": {
-    "url": "https://github.com/fadhelmurphy/fadhel-ui-starter/issues"
+    "url": "https://github.com/fadhelmurphy/mamatgarem-ui-starter/issues"
   }
 }
