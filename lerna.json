@@ -1,6 +1,5 @@
 {
   "npmClient": "npm",
-  "private": true,
   "version": "independent",
   "hoist": true,
   "stream": true,
