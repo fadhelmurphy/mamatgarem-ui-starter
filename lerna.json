@@ -3,6 +3,7 @@
   "version": "independent",
   "hoist": true,
   "stream": true,
+  "private": true,
   "bootstrap": {
     "npmClientArgs": ["--no-package-lock"]
   },
