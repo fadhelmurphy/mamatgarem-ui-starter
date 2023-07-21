@@ -1,0 +1,30 @@
+{
+  "name": "@fadhel-ui/fadhel_test",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Fadhel <fadhel@femaledaily.com>",
+  "homepage": "https://gitlab.com/fdnetworks/fdn-monorepo#readme",
+  "license": "ISC",
+  "srcFile": "lib",
+  "srcName": "fadhel_test",
+  "main": "dist/fadhel_test.umd.js",
+  "module": "dist/fadhel_test.es.js",
+  "files": [
+    "dist/"
+  ],
+  "publishConfig": {
+    "registry": "http://rpm.femaledaily.com/repository/fdn-hosted/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/fdnetworks/fdn-monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "browser": true,
+  "bugs": {
+    "url": "https://gitlab.com/fdnetworks/fdn-monorepo/issues"
+  }
+}

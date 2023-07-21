@@ -1,0 +1,51 @@
+{
+  "name": "belajar-monorepo",
+  "commands": {
+    "publish": {
+      "ignoreChanges": [
+        "**/*.md",
+        "*.txt",
+        "**/example/**",
+        "test/**",
+        "**/test/**",
+        "tests/**",
+        "**/tests/**",
+        "packages/**/package-lock.json"
+      ]
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "npmClient": "yarn",
+  "scripts": {
+    "build": "lerna exec -- rollup -c rollup.config.js --bundleConfigAsCjs",
+    "watch": "lerna exec --no-sort -- rollup -w -c=../../rollup.config.js --bundleConfigAsCjs",
+    "single": "lerna exec --scope @fadhel-ui/$packages -- rollup -c=../../rollup.config.js --bundleConfigAsCjs"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "Gunadarma",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "lerna": "^5.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.26.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

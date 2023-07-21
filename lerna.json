@@ -1,0 +1,16 @@
+{
+  "npmClient": "npm",
+  "private": true,
+  "version": "independent",
+  "hoist": true,
+  "stream": true,
+  "bootstrap": {
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "command": {
+    "publish": {
+      "allowBranch": ["master", "feature/*"]
+    }
+  },
+  "useNx": false
+}
