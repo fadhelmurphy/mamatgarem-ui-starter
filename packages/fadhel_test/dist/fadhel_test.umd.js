@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define('@fadhel-ui/fadhel_test', factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@fadhel-ui/fadhel_test"] = factory());
+	typeof define === 'function' && define.amd ? define('@fdhl-ui/fadhel_test', factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global["@fdhl-ui/fadhel_test"] = factory());
 })(this, (function () { 'use strict';
 
 	function createCommonjsModule(fn, module) {
