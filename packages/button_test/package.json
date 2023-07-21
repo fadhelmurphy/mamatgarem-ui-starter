@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Fadhel <fadhel@femaledaily.com>",
-  "homepage": "https://github.com/fadhelmurphy/fdhl-ui-starter#readme",
+  "homepage": "https://github.com/fadhelmurphy/fadhel-ui-starter#readme",
   "license": "ISC",
   "srcFile": "lib",
   "srcName": "button_test",
