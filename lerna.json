@@ -10,7 +10,6 @@
   "command": {
     "publish": {
       "allowBranch": ["master", "feature/*"],
-      "registry": "https://registry.npmjs.org/"
     }
   },
   "useNx": false
