@@ -9,7 +9,7 @@
   },
   "command": {
     "publish": {
-      "allowBranch": ["master", "feature/*"],
+      "allowBranch": ["master", "feature/*"]
     }
   },
   "useNx": false
