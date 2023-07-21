@@ -1,14 +1,14 @@
 {
-  "name": "@fadhel-ui/fadhel_test",
+  "name": "@fadhel-ui/button_test",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Fadhel <fadhel@femaledaily.com>",
   "homepage": "https://github.com/fadhelmurphy/fadhel-ui-starter#readme",
   "license": "ISC",
   "srcFile": "lib",
-  "srcName": "fadhel_test",
-  "main": "dist/fadhel_test.umd.js",
-  "module": "dist/fadhel_test.es.js",
+  "srcName": "button_test",
+  "main": "dist/button_test.umd.js",
+  "module": "dist/button_test.es.js",
   "files": [
     "dist/"
   ],
