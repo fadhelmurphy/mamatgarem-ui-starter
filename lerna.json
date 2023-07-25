@@ -10,7 +10,7 @@
   },
   "command": {
     "publish": {
-      "allowBranch": ["master", "feature/*"]
+      "allowBranch": ["master"]
     }
   },
   "useNx": false

@@ -22,7 +22,8 @@
   "scripts": {
     "build": "lerna exec -- rollup -c=../../rollup.config.js --bundleConfigAsCjs",
     "watch": "lerna exec --no-sort -- rollup -w -c=../../rollup.config.js --bundleConfigAsCjs",
-    "single": "lerna exec --scope @mamatgarem-ui/$packages -- rollup -c=../../rollup.config.js --bundleConfigAsCjs"
+    "single": "lerna exec --scope @mangkodir-ui/$packages -- rollup -c=../../rollup.config.js --bundleConfigAsCjs",
+    "single:watch": "lerna exec --scope @mangkodir-ui/$packages -- rollup -w -c=../../rollup.config.js --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "",
@@ -40,9 +41,12 @@
     "rollup": "^3.26.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-serve": "^2.0.2",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "styled-jsx": "^5.1.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "styled-jsx": "^5.1.2"
   }
 }

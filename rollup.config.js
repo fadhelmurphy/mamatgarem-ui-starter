@@ -26,9 +26,15 @@ export default formats.map(format => ({
     babel({
       exclude: ["node_modules/**"],
       presets: [['@babel/preset-env', {'modules': false}],'@babel/react'],
+      plugins: ["styled-jsx/babel"]
     }),
   ],
   input: INPUT_FILE,
+  
+  external: [
+    'react',
+    'react-dom',
+  ],
   output: {
     ...(format === "umd" ? {file: path.join(OUTPUT_DIR, `${PKG_JSON.srcName}.${format}.js`)} : {}),
     format, 
