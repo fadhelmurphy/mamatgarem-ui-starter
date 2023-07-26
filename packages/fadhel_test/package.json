@@ -8,7 +8,6 @@
   "srcFile": "lib",
   "srcName": "fadhel_test",
   "main": "dist/fadhel_test.umd.js",
-  "module": "dist/fadhel_test.es.js",
   "files": [
     "dist/"
   ],

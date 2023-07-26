@@ -8,7 +8,6 @@
   "srcFile": "lib",
   "srcName": "button_test",
   "main": "dist/button_test.umd.js",
-  "module": "dist/button_test.es.js",
   "files": [
     "dist/"
   ],
