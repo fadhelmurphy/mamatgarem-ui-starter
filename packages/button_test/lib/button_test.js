@@ -1,4 +1,5 @@
 import React from "react";
+import css from "styled-jsx/css";
 
 const btnStyle = {
   "btn-blue": `
@@ -16,13 +17,17 @@ const btnStyle = {
 };
 
 export default function ButtonTest({ children, type, href, style }) {
-  const className = type ? `btn-${type}` : "btn";
+  const { className, styles } = css.resolve`
+    ${btnStyle[type ? `btn-${type}` : "btn"]}
+  `;
   return (
     <>
-      <button className={className} {...{href, style}}>{children}</button>
+      <button className={`mangkodir-btn ${className}`} {...{ href, style }}>
+        {children}
+      </button>
       <style jsx>
         {`
-          button {
+          .mangkodir-btn {
             height: 100%;
             opacity: 1;
             padding: 14px 16px;
@@ -30,11 +35,9 @@ export default function ButtonTest({ children, type, href, style }) {
             border-radius: 12px;
             cursor: pointer;
           }
-          ${className ?`.${className} {
-            ${btnStyle[className]}
-          }`: ""}
         `}
       </style>
+      {styles}
     </>
   );
 }
