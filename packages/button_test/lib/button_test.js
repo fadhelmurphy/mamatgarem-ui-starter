@@ -16,9 +16,9 @@ const btnStyle = {
     `,
 };
 
-export default function ButtonTest({ children, type, href, style }) {
-  const { className, styles } = css.resolve`
-    ${btnStyle[type ? `btn-${type}` : "btn"]}
+export default function ButtonTest({ children, type = null, href = null, style = null }) {
+  const { className = "", styles = "" } = css.resolve`
+    ${btnStyle[type ? `btn-${type}` : "btn"] || ""}
   `;
   return (
     <>
